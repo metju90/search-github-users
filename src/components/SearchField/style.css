@@ -1,0 +1,35 @@
+#search-wrapper {
+  display: flex;
+  margin: 40px auto;
+  width: 250px;
+  position: relative;
+  align-items: center;
+}
+
+#search-field {
+  width: 100%;
+}
+
+input {
+  max-width: 100%;
+  background: transparent;
+  border: 0;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: inherit;
+  position: relative;
+  padding: 5px 35px 5px 30px;
+  background-image: url("../../search.svg");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+  -webkit-appearance: none;
+  outline: 0;
+}
+
+input:focus {
+  background-color: #373940;
+  border: none;
+}

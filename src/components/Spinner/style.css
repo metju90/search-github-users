@@ -1,0 +1,26 @@
+.spinner {
+  animation: spinner-animation infinite 2s linear;
+}
+
+#spinner-wrapper {
+  text-align: center;
+}
+
+.spinner-over-content {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes spinner-animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
